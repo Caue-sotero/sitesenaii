@@ -1,0 +1,120 @@
+body{
+   
+    background-color: #6539AC;
+ }
+ .container{
+ width: 50%;
+ height: 100%;
+ background-color: aliceblue;
+ display: flex;
+ 
+ margin: 6%;
+ }
+ 
+ 
+ .login{
+   width: 50%;
+   height: 100%;
+   margin-top: 5%;
+ }
+ 
+ 
+ 
+ 
+ 
+ /* Style the input container */
+ .input-container {
+   display: flex;
+   width: 60%;
+   margin-bottom: 15px;
+ }
+ 
+ /* Style the form icons */
+ 
+ 
+ /* Style the input fields */
+ .input-field {
+  outline-color: transparent;
+  border-color: #6539AC;
+  background-color: aliceblue;
+  border-right: none;
+  border-top: none;
+  border-left: none;
+  width: 100%;
+  padding: 10px;
+ }
+ 
+ .input-field:focus {
+   border: 2px solid dodgerblue;
+ }
+ 
+ .btn {
+  background-color: #2bb1d3;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 35%;
+    opacity: 0.9;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 4px 1px #3832326a;
+ }
+ .btn:hover {
+   opacity: 1;
+ }
+ .esqueceu{
+  color: black;
+  text-decoration: none;
+  font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+} 
+     
+ 
+ h2{
+  color: #170e26;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+ .img-fundo{
+  border-radius: 20px  0px  0px 20px;
+ }
+ /* body {
+  background-color: #6539ac ;
+  background-image: url(purple-split-wallpaper-2880x1620_52.jpg);
+} */
+
+.container {
+  width: 62%;
+  height: 100%;
+  background-color: rgb(240, 248, 255);
+  display: flex;
+  margin: 6%;
+  box-shadow: 15px 20px 80px 30px #463c57c2;
+  border-radius: 20px;
+  margin-top: 8%;
+}
+
+.gradient {
+  height: 100vh;
+  width: 100vw;
+
+  /* Colors generated on: https://colorhunt.co/palette/179481 */
+  background: linear-gradient(45deg, #6539ac, #3d4496, #aa9ebb, #945daa);
+  background-size: 300% 300%;
+  animation: colors 8s ease infinite;
+}
+
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+a{
+  text-decoration: none;
+}

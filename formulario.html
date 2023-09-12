@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="hp.css">
+</head>
+
+<body>
+   
+     
+      <div id="demo-modal" class="modal">
+        <div class="content" style="font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;">
+          <h1>Funcionário</h1>
+       
+<main>
+    <div id="content">
+      <div id='calendar'></div>
+      <form id="formulario" action="agendar.php">
+        <label class="formObjt" for="descricao">Descrição</label><br>
+        <input class="formObjt" type="text" name="descricao"><br>
+        <label class="formObjt" for="dataInicio">Data de Início</label><br>
+        <input class="formObjt" type="date" name="dataInicio"><br>
+        <label class="formObjt" for="dataFim">Data de Término</label><br>
+        <input class="formObjt" type="date" name="dataFim"><br>
+        <label class="formObjt" for="servico">Serviços</label><br>
+        <select class="formObjt" name="servico" id="servico"><br>
+          <option value="manutencao">Manutenção de Rede</option>
+          <option value="internet">Instalação de Internet</option>
+          <option value="Molden">Instalação de Molden</option>
+          <option value="telefone-movel">Instalação Telefone móvel</option>
+        </select>
+       
+      </form>
+    </div>
+  </main>
+      
+          <div class="footer">
+            <a href="#" class="footer-btn-close"> Agendar </a>
+          </div>
+      
+          <a href="#" class="close">&times;</a>
+        </div>
+      </div>
+    <div class="container-fluid">
+        <div class="lateralesq">
+            <div class="botoes">
+                <img src="logoo.png" class="foto"><br>
+                <button class="botaotarefas">Tarefas</button>
+                <a href="caalendario2.html">
+                <button class="botaocalendario">Calendário</button></a>
+            </div>
+        </div>
+        <div class="lateraldir">
+            <div class="retangulo">
+                <div class="tarefafoto">
+                    <img src="tarefaaa.png" class="tarefaa">
+                </div>
+                <br><br><br>
+                <div class="cards-principal">
+                    <div class="card1">
+                        <div class="subtitulo">
+                            Tarefas
+                        </div>
+                        <div class="tarefa1">
+                            <h6>ㅤData de entrega: 09/10</h6>
+                            <h3>ㅤVerificar relatório <a href=""><img src="editar.png" width="10%"
+                                        class="editar1"></a><img src="certo.png" class="certo"></h3><br>
+                        </div>
+                        <div class="tarefa1">
+                            <h6>ㅤData de entrega: 09/10</h6>
+                            <h3>ㅤAgendar reunião <a href=""><img src="editar.png" width="10%" class="editar2"></a><img
+                                    src="certo.png" class="certo"></h3><br>
+                        </div>
+                        <div class="tarefa1">
+                            <h6>ㅤData de entrega: 09/10</h6>
+                            <h3>ㅤChegar caixas de emails <a href=""><img src="editar.png" width="10%"
+                                        class="editar"></a><img src="certo.png" class="certoemails"></h3><br>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="subtitulo2">
+                            Concluídas
+                        </div>
+                        <div class="tarefa1">
+                            <br>
+
+                            <h3 class="reuniao">Reunião <a href=""><img src="certo.png" class="certoreuniao"></h3></a>
+                            <br>
+                        </div>
+                        <div class="tarefa1">
+
+                            <br>
+                            <h3 class="reuniao">Relatório<img src="certo.png" class="certoreuniao"></h3><br>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="subtitulo3">
+                            Pendentes
+                        </div>
+                        <div class="tarefa1">
+
+                            <br>
+                            <h3 class="reuniao">Checar emails <img src="alerta.png" width="10%" class="alerta"></h3><br>
+                        </div>
+                    </div>
+                    <br>
+
+                </div>
+               <a href="#demo-modal">
+<button class="botaocriarnovo" >Criar novo</button>
+</a>
+
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+
+    </div>
+
+
+</body>
+
+</html>

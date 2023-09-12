@@ -1,0 +1,251 @@
+body{
+    background-color:#6539AC ;
+}
+.container-fluid{
+display: flex;
+flex-direction: row;
+}
+.tarefas{
+    background-color: aliceblue;
+    border-radius: 14px;
+    width:76% ;
+    height: 70%;
+    margin: 15px;
+}
+.botaotarefas{
+    width: 75%;
+    height: 16%;
+   border-radius: 14px;
+   background-color: #ffffff;
+   border-color: aliceblue;
+   color: #6539AC;
+   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.654);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   margin: 8px;
+
+}
+
+.botaocriarnovo{
+    width: 67%;
+    height: 6%;
+   border-radius: 14px;
+   background-color:#6539AC;
+   border-color: aliceblue;
+   color: aliceblue;
+   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.654);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   margin: 8px;
+   margin-top: 30px;
+   margin-left: 185px;
+}
+.botaocalendario{
+    width: 75%;
+    height: 16%;
+   border-radius: 14px;
+   background-color: #ffffff;
+   border-color: aliceblue;
+   color: #6539AC;
+   box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.654);
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   font-size: 20px;
+   margin: 8px;
+}
+.foto{
+    margin-left: 58px;
+    width:50%;
+    height:85%;
+}
+
+.card1{
+    
+    margin-left: 10px;
+width: 32%;
+height: 70%;
+background-color: #512D8B;
+border-radius: 15px;
+
+box-shadow: 4px 5px 1px 1px #2b156f;
+}
+
+
+.card2{
+    
+    margin-left: 10px;
+width: 32%;
+height: 70%;
+background-color: #512D8B;
+border-radius: 15px;
+box-shadow: 4px 5px 1px 1px #2b156f;
+}
+
+
+.card3{
+    
+    margin-left: 10px;
+width: 32%;
+height: 70%;
+background-color: #512D8B;
+border-radius: 15px;
+box-shadow: 4px 5px 1px 1px #2b156f;
+
+
+}
+
+.retangulo{
+    width: 120%;
+    height: 113%;
+    background-color: #ffffff;
+    padding-left: 20px;
+    margin-right: 25px;
+    margin-top: 15px;
+    border-radius: 14px;
+
+    flex-direction: column;
+   
+   
+}
+.tarefaa{
+    margin-top: 56px;
+    margin-left:290px ;
+}
+.cards-principal{
+    flex-direction: row;
+    display: flex;
+  
+}
+.subtitulo{
+    background-color: #27055d;
+    width: 23%;
+    border-radius: 14px;
+    margin-left: 153px;
+    color: #ffffff;
+    font-size: 180%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subtitulo2{
+    background-color: #27055d;
+    width: 37%;
+    border-radius: 14px;
+    margin-left: 129px;
+    color: #ffffff;
+    font-size: 180%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.subtitulo3{
+    background-color: #27055d;
+    width: 35%;
+    border-radius: 14px;
+    margin-left: 129px;
+    color: #ffffff;
+    font-size: 180%;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.tarefa1{
+    background-color: #6539AC;
+    margin: 30px;
+    color: aliceblue;
+    border-radius: 15px;
+
+    box-shadow: 7px 8px 1px 1px #2b156f;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.reuniao{
+    text-align: center;
+}
+.criarnovo{
+    background-color: #6539AC;
+}
+.certo{
+    width: 10%;
+    margin-top: -15px;
+    margin-left: 11px;
+}
+.certoreuniao{
+    margin-top: -19px;
+    width: 10%;
+    margin-left: 36px;
+}
+.certoemails{
+    width: 10%;
+    margin-top: -15px;
+    margin-left: 11px;
+}
+.alerta{
+    width: 10%;
+    margin-top: -15px;
+    margin-left: 33px;
+}
+.editar{
+    margin-left: 10px;
+}
+.editar1{
+    margin-left: 65px;
+}
+.editar2{
+    margin-left: 65px;
+}
+
+  
+  .wrapper a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 3px;
+    text-transform: uppercase;
+    color: #585858;
+    font-family: "Roboto", sans-serif;
+  }
+  
+  .modal {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(77, 77, 77, 0.7);
+    transition: all 0.4s;
+  }
+  
+  .modal:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .content {
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: #fff;
+    padding: 1em 2em;
+  }
+  
+  .footer {
+    text-align: right;
+    margin-top: 50px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #585858;
+    text-decoration: none;
+  }
+  
+  .footer-btn-close {
+    width: 150px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #13809c;
+    color: #ffffff;
+    border-radius: 3px;
+  }
